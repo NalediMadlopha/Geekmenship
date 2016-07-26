@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=1A:E9:50:F0:21:1F:A6:98:29:37:33:C6:E7:02:40:7F:CE:04:94:F7%3Bcom.geekmenship.app
+
+    You can also add your credentials to an existing key, using this line:
+    1A:E9:50:F0:21:1F:A6:98:29:37:33:C6:E7:02:40:7F:CE:04:94:F7;com.geekmenship.app
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">        YOUR_KEY_HERE</string>
+    <string name="google_maps_key_instructions">
+        <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=34:02:C2:85:A7:AE:72:3D:1E:F5:C2:E6:29:B7:6D:53:EE:C7:83:94%3Bcom.geekmenship.app
+
+    You can also add your credentials to an existing key, using this line:
+    34:02:C2:85:A7:AE:72:3D:1E:F5:C2:E6:29:B7:6D:53:EE:C7:83:94;com.geekmenship.app
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+        -->
+    </string>
+
+</resources>

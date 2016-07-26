@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <NumberPicker
+            android:id="@+id/ageNumberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/ageButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/average_age"
+            android:fontFamily="sans-serif-light"
+            android:background="@color/orange"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</RelativeLayout>

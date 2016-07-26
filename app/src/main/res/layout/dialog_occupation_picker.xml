@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/occupationRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@+id/occupationEmployee">
+
+            <RadioButton
+                android:id="@+id/occupationEmployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_employee"/>
+            <RadioButton
+                android:id="@+id/occupationEntrepreneur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_entrepreneur"/>
+            <RadioButton
+                android:id="@+id/occupationFreelancer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_freelancer"/>
+            <RadioButton
+                android:id="@+id/occupationResearcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_researcher"/>
+            <RadioButton
+                android:id="@+id/occupationStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_student"/>
+            <RadioButton
+                android:id="@+id/occupationOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/occupation_other"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/occupationButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:fontFamily="sans-serif-light"
+            android:background="@color/orange"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+</RelativeLayout>

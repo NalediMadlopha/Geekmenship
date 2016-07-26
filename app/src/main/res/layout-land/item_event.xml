@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="7dp"
+        android:orientation="vertical"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/eventImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/communityNameTextView"
+                        android:layout_width="265dp"
+                        android:layout_height="wrap_content"
+                        android:text="GDG - Pretoria"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="20sp"
+                        android:textColor="@color/orange"
+                        android:maxLines="1" />
+
+                    <TextView
+                        android:id="@+id/eventDateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19/02/2015"
+                        android:textAppearance="?android:attr/textAppearance"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="12sp"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/eventTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android Fundamentals Study Jam"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/eventDescriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Students who are taking the free..."
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:maxLines="5"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
